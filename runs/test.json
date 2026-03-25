@@ -1,5 +1,5 @@
 {
-  "path": "C:\\\\Users\\\\jwart\\\\PycharmProjects\\\\PythonProject4\\\\pdf\\\\lorem-ipsum.pdf",
+  "path": "pdf\\\\lorem-ipsum.pdf",
   "hits": {
     "test": {
       "regex": "[a-z]",
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "number": {
+    "match_all": {
       "regex": ".*",
       "blocks": [
         {
@@ -39,7 +39,7 @@
         }
       ]
     },
-    "invoice": {
+    "lorem_ipsum_match": {
       "regex": "(?i).*?Lorem Ipsum.*?",
       "blocks": [
         {
